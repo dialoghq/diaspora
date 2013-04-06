@@ -11,7 +11,6 @@ config/redis.conf
 config/deploy_config.yml
 .bundle
 vendor/bundle/*
-vendor/cache/*
 config/database.yml
 .rvmrc_custom
 .rvmrc.local
