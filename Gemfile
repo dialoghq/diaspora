@@ -108,6 +108,10 @@ group :assets do
   gem 'handlebars_assets', '0.12.0'
   gem 'jquery-rails',      '2.1.4'
 
+  # Recompile only changed assets on each deployment.
+  # To take advantage of this speedup on Heroku, use the associated buildpack.
+  gem 'turbo-sprockets-rails3'
+
   # Windows and OSX have an execjs compatible runtime built-in, Linux users should
   # install Node.js or use 'therubyracer'.
   #
